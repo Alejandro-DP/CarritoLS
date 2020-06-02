@@ -31,7 +31,7 @@ ul {
     list-style: none;
 }
 #hero {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/animals.jpg);
     background-repeat: no-repeat;
     height: 370px;
     background-size: cover;
@@ -47,6 +47,13 @@ ul {
 
 .submenu #carrito{
     display: none;
+}
+#buscador {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.57);
+            border-radius: 10px;
+
 }
 .submenu:hover #carrito{
     display: block;
